@@ -1,0 +1,554 @@
+.homepage-imagebox {
+    margin-top: 14vh;
+    width: 100%;
+    height: 86vh;
+}
+
+.homepage-imagebox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.eventTextbox {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+}
+
+.eventTextbox h2 {
+    width: 90%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #00BBF0;
+    font-family: Custome;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.eventTextbox p {
+    width: 90%;
+    margin: 1em auto;
+    text-align: justify;
+    line-height: 30px;
+    font-family: contentFont;
+    font-size: 1em;
+    word-spacing: 2px;
+}
+
+/* card */
+
+
+.maincardbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 0 1em;
+}
+
+.maincardbox .card {
+    position: relative;
+    width: 280px;
+    height: 320px;
+    background: mediumturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.maincardbox .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.card::before,
+.card::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    opacity: 0;
+}
+
+.card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+    -webkit-border-radius: 0 15px 0 100%;
+    -moz-border-radius: 0 15px 0 100%;
+    -ms-border-radius: 0 15px 0 100%;
+    -o-border-radius: 0 15px 0 100%;
+}
+
+.card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100% 0 15px;
+    -webkit-border-radius: 0 100% 0 15px;
+    -moz-border-radius: 0 100% 0 15px;
+    -ms-border-radius: 0 100% 0 15px;
+    -o-border-radius: 0 100% 0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.42);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.card:nth-child(1):hover:after {
+    content: "Entairment";
+}
+
+.card:nth-child(2):hover:after {
+    content: "Event Management";
+}
+
+.card:nth-child(3):hover:after {
+    content: "Event Services";
+}
+
+.card:nth-child(4):hover:after {
+    content: "Vishual Studio";
+}
+
+/* page4 conatiner */
+.page4-container {
+    margin-top: 1em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4-container p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ff0000;
+    font-size: 1.1em;
+    font-family: contentFont;
+}
+
+.eventTextbox strong {
+    font-family: contentFont;
+    font-size: 1.3em;
+}
+
+.eventTextbox>div {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    align-items: center;
+}
+
+.eventTextbox>div>div {
+    width: 320px;
+    height: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 4em;
+}
+
+.eventTextbox>div>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+.eventTextbox>div>div img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.speecialeventbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em 4.5em;
+}
+
+.speecialeventbox h2 {
+    font-family: Custome;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    color: black;
+}
+
+.speecialeventbox h2>span {
+    color: #00BBF0;
+}
+
+.speecialeventbox h4 {
+    font-family: Custome;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: #00BBF0;
+    margin-left: 44px;
+}
+
+.speecialeventbox ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+
+.speecialeventbox ul li {
+    padding: 0 0.6em;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3em;
+    font-family: contentFont;
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.speecialeventbox ul li span {
+    margin-top: -1px;
+}
+
+.summarytext {
+    width: 100%;
+    height: 100%;
+    padding: 1em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summarytext h3 {
+    font-family: contentFont;
+    font-size: 1.9em;
+    font-weight: 500;
+    word-spacing: 4px;
+    color: #00BBF0;
+    text-align: center;
+}
+
+.entertainment-container{
+    width: 100%;
+    height: auto;
+    padding: 1em 3em;
+}
+.entertainment-container .page1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.entertainment-container .page1 h4{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    font-family:contentFont ;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: #00BBF0;
+}
+.entertainment-container .page1 p{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.6em;
+    font-family:contentFont ;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 34px;
+    margin-bottom: 1em;
+}
+.entertainment-container .page1 div{
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.entertainment-container .page1 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 2 / 3;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+.entertainment-container .page1 div img:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.page2list{
+    margin-left: -5em;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+}
+.page2list div{
+    width: 30%;
+}
+.page2list div:first-child{
+    width: 40%;
+}
+.page2list div h4{
+    height: 14vh;
+    margin-left: 1.6em;
+}
+
+
+
+/* Mobile devices (max width: 600px) */
+@media (max-width: 600px) {
+
+    .homepage-imagebox {
+        height: 50vh;
+    }
+
+
+    .eventTextbox h2 {
+        font-size: 2em;
+    }
+
+    .eventTextbox p {
+        font-size: 0.9em;
+    }
+
+    .maincardbox {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .maincardbox .card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust header layout */
+    #header .first-box,
+    #header .second-box {
+        display: block;
+        text-align: center;
+    }
+
+    #header .second-box a {
+        display: block;
+        margin: 1em 0;
+    }
+
+
+    .page4-container button {
+        width: 100%;
+    }
+}
+
+/* Tablet devices (max width: 768px) */
+@media (max-width: 768px) {
+    .homepage-imagebox {
+        height: 60vh;
+    }
+
+    .maincardbox {
+        gap: 1.5em;
+    }
+
+    .eventTextbox h2 {
+        font-size: 1.6em;
+        line-height: 35px;
+        width: 95%;
+    }
+
+    .eventTextbox p {
+        font-size: 1em;
+        width: 100%;
+        word-spacing: -2px;
+    }
+
+    .eventTextbox>div>div {
+        margin-left: 1em;
+    }
+
+    .speecialeventbox {
+        padding: 1.5em;
+    }
+
+    .speecialeventbox h2 {
+        font-size: 1.6em;
+    }
+    .speecialeventbox ul li{
+        font-size: 1em;
+    }
+    .summarytext{
+        padding: 1.5em;
+    }
+    .summarytext h3{
+        font-size: 1.6em;
+        width: 100%;
+        text-align: center;
+        word-spacing: 5px;
+    }
+}
+
+/* Large screens (min width: 1024px) */
+@media (min-width: 1024px) {
+    .homepage-imagebox {
+        height: 80vh;
+    }
+
+    .eventTextbox h2 {
+        font-size: 3em;
+    }
+
+    .maincardbox {
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+    .eventTextbox p {
+        font-size: 1.1em;
+    }
+}
+
+/*  inside main */
+
+
+
+.EventServices-box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120vh;
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.left{
+    width: 35%;
+    
+}
+
+.left h4{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.left-text{
+  height: 300px;
+   /* border: 2px solid pink;  */
+   color: #000;
+   font-size: 0.6em;  
+   margin-left: 20px ;
+}
+.left-text li{
+    font-size: 1em;
+    line-height: 1.9em;
+}
+
+.right{
+    width: 40%;     
+}
+.right h4{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+.right-text{
+    /* border: 2px solid pink; */
+   color: #000;
+   font-size: 0.6em;    
+   height: 300px; 
+   margin-left: 20px;
+ }
+ 
+.right-text li{
+    font-size: 1em;
+    line-height: 1.9em;
+    
+}
+
+.left-text-para p{
+    margin-top: 25px;
+    font-size: 0.6em;
+    color: #000;
+}
+
