@@ -1,0 +1,168 @@
+
+
+.Virtual-container {
+   width: 100%;
+   height: 35vh;
+   margin-top: 1em;
+}
+
+
+
+.Virtual-container h4{
+    /* margin-top: 1em; */
+  font-family: Custome;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 500;
+  color: #00BBF0;
+  width: 80%;
+  margin: auto;
+}
+
+.Virtual-para p{
+    width: 85%;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin: auto;
+}
+
+.Virtual-para .p2{
+    margin-top: 20px;
+}
+
+.Virtual-para2 h4{
+    
+  font-family: Custome;
+  text-align: center;
+  font-size: 3em;
+  margin: auto;
+  width:80%;
+  font-weight: 500;
+  color: #00BBF0;
+  margin-top: 1em;
+}
+
+.Virtual-para2 h3{
+    text-align: center;
+    line-height: 2;
+    width: 75%;
+    font-size: 1.6em;
+    font-family: Custome;
+    color: #00BBF0;
+    font-weight: 500;
+}
+
+.Virtual-para2 p{
+    font-size: 1em;
+    font-family: Custome;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    line-height: 1.8em;
+}
+
+
+.Virtual-li li{
+    font-size: 1.3em;
+    width: 50%;
+    margin: auto;
+    line-height: 1.8em;
+}
+
+
+.Virtual-para2 .h3{
+    margin-left: 5em;
+    font-weight: 500;
+    font-family: contentFont;
+    margin-top: 20px;
+    color: #00BBF0;
+    display: block;
+    width: 30%;
+   position: relative;
+}
+
+.Virtual-para2 .h3::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: #000;
+    color: #000;
+    position: absolute;
+    /*top: 0;*/
+    bottom: 10%;
+    left: 28%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.Virtual-para2 .h3:hover::after{
+    width: 160px;
+}
+
+
+.Virtual-para2 li{
+    font-size: 1em;
+    width: 50%;
+    font-family: contentFont;
+    margin: auto;
+    line-height: 1.6em;
+}
+
+.Virtual-img{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+     align-items: center;
+    width: 90%; 
+    margin: auto;
+    margin-top: 4em;
+}
+
+.Virtual-img1 {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 420px;
+    height: 250px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Virtual-img1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.h6{
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+
+}
+
+.Virtual-h3{
+    margin-bottom: 100px;
+    margin-left: 3.1em;
+    font-family: contentFont;
+    font-weight: 600;
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    display: inline;
+    /* margin-top: 50px; */
+}
+
+.Virtual-pre{
+    font-size: 1.1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-left:200px;
+    line-height: 1.8em;
+}
+
+.Virtual-pre li{
+    font-size: 1.1em;
+    line-height: 1.8em;
+}

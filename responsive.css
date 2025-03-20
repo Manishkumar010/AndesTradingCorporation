@@ -1,60 +1,576 @@
-@media only screen and (max-width:766px){
-    .card-conatiner{
+@media only screen and (max-width:766px) {
+    .card-conatiner {
         padding: 1em;
         margin-top: 4em;
     }
+
     .ourWork-container h2 {
         margin-top: -20px;
         font-size: 2.2em;
     }
-    section .first-headingbox h2{
+
+    section .first-headingbox h2 {
         font-size: 2em;
     }
+
     section .first-headingbox p {
         font-size: 1em;
         text-align: justify;
         line-height: 28px;
     }
+
     .last-container>h2 {
         font-size: 2em;
         margin-bottom: 1em;
     }
-    .footer>div>a{
+
+    .footer>div>a {
         font-size: 1em;
     }
+
     /* about css */
     .about-container>h2 {
         width: 100%;
         font-size: 2em;
         line-height: 40px;
     }
+
     .about-container>div>p {
         line-height: 29px;
         word-spacing: -1px;
     }
+
     .h1heading {
         padding-top: 1.5em;
         font-size: 1.8em;
         font-weight: 500;
     }
+
+    .page2list {
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .page2list div:first-child {
+        width: 110%;
+    }
+
+    .page2list div {
+        width: 100%;
+        margin-left: -30px;
+    }
+
+    .page2list div h4 {
+        height: auto;
+        margin-top: 1em;
+        width: 70vw;
+        margin-left: revert-layer;
+        font-size: 1.3em;
+    }
+
+    .entertainment-container .page1 div {
+        height: 40vh !important;
+    }
+
+    .speecialeventbox ul {
+        margin-left: -30px;
+    }
+
+    .entertainment-container .page1 h4 {
+        font-size: 1.5em;
+    }
+
+    .eventEmcee-container .page2 .mainBox {
+        padding: 1em;
+    }
+
+    .eventEmcee-container .page1 p {
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    .eventEmcee-container .page2 .mainBox .leftBox {
+        width: 100%;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .eventEmcee-container .page2 .mainBox .leftBox img {
+        width: 140px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .eventEmcee-container .page2 .mainBox .leftBox h4 {
+        font-size: 1em;
+        margin-top: 0em;
+    }
+
+    .mainheadingtop {
+        font-size: 1.8em;
+        line-height: 37px;
+    }
+
+    .eventEmcee-container .page2 .mainBox .leftBox h3 {
+        font-size: 1.3em;
+    }
+
+    .wedding-entertainmentBox .whatWeDoBox .contentBox h5 {
+        width: 66vw;
+    }
+
+    .wedding-entertainmentBox .page11 div h3 {
+        margin-top: 1.5em;
+        text-align: center;
+        word-spacing: 0px;
+        font-size: 1.8em;
+        line-height: 42px;
+        width: 80vw;
+    }
+
+    .wedding-entertainmentBox .page22 h3 {
+        word-spacing: 0px;
+        font-size: 1.6em;
+        line-height: 42px;
+        width: 80vw;
+    }
+
+    .wedding-entertainmentBox .page11 {
+        width: 80%;
+    }
+
+    .faveIconBox {
+        flex-direction: column !important;
+        gap: 0em !important;
+    }
+
+    .overlay {
+        left: 50px;
+    }
+
+    .row-2,
+    .row-1 {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .row-2 .right {
+        height: 40vh;
+        width: 97%;
+        overflow: hidden;
+    }
+
+    .row-1 .left {
+        height: auto;
+        width: 94%;
+    }
+
+    .row-1 .right {
+        height: 40vh;
+        width: 97%;
+    }
+
+    .row-1 .left p {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .row-2 .left {
+        height: 100%;
+        width: auto;
+        margin: 1.2em 0;
+    }
+
+    .row-3 {
+        margin-left: 0px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .row-3 .left {
+        width: 95%;
+        height: auto;
+    }
+
+    .hero-section h2 {
+        font-size: 1.6em;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .audio-visual h2 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .row-3 .right {
+        height: 40vh;
+        width: 97%;
+        overflow: hidden;
+    }
+
+    /* led wall */
+    .section-2,
+    .section-3,
+    .section-4 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inside-sec2 h4,
+    .inside-sec3 h4,
+    .inside-sec4 h4 {
+        font-size: 1.4em;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+
+    .paragraph {
+        margin-top: 20px;
+        font-size: 1em;
+        width: 90%;
+        margin-left: 0px;
+        line-height: 1.5em;
+        margin: auto;
+    }
+
+    .section-1 h4 {
+        font-size: 1.8em;
+        margin-top: 1em;
+    }
+
+
+    .section-1 p,
+    .section-2 p .section-3 p {
+        margin: auto;
+        width: 90%;
+    }
+
+    .section-2-img,
+    .section-3-img,
+    .section-4-img {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .section-4>div {
+        width: 100% !important;
+    }
+
+    /* lighting */
+
+    .hero-section {
+        padding: 0;
+    }
+
+    .hero-section p {
+
+        text-align-last: left;
+        line-height: 24px;
+    }
+
+    .row1,
+    .row3 {
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    .row2 {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .row1 h4 {
+        font-size: 1.6em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .row-container .left {
+        width: 100%;
+
+    }
+
+    .row1 p {
+        width: 100%;
+        line-height: 1.6em;
+        text-align: justify;
+    }
+
+    .row-container .right {
+        width: 100%;
+    }
+
+    .row3 p,
+    .row2 p,
+    .row1 p {
+        margin-bottom: 1em;
+    }
+
+    /* stage */
+
+    .section-container {
+        width: 90%;
+    }
+
+    /* virtual */
+
+    .Virtual-container h4 {
+        width: 100%;
+        font-size: 1.8em;
+    }
+
+    .Virtual-container {
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .Virtual-para2 h4 {
+        width: 100%;
+        font-size: 1.8em;
+        margin-bottom: 1em;
+    }
+
+    .Virtual-para2 h3 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 400;
+    }
+
+    .Virtual-para2 h3 {
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .Virtual-li li {
+        width: 85%;
+    }
+
+    .Virtual-para2 p {
+        font-size: 1em;
+        font-family: 'contentFont';
+        width: 92%;
+        margin: auto;
+        margin-top: 10px;
+        line-height: 2em;
+    }
+
+    .Virtual-para2 .h3 {
+        margin-left: 0;
+        font-weight: 500;
+        font-family: contentFont;
+        margin-top: 20px;
+        color: #00BBF0;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .Virtual-para2 h3 {
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .Virtual-para2 li {
+        width: 92%;
+        margin-bottom: 10px;
+    }
+    .Virtual-img{
+        flex-direction: column;
+    }
+    .Virtual-img1{
+        width: 100%;
+    }
+    .Virtual-h3{
+        margin-left: 0;
+    }
+    .box-1, .box-2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left,.left-2{
+        width: 90%;
+        margin: auto;
+    }
+    .right,.right-2{
+        width: 90%;
+        margin: auto;
+    }
+    .section2{
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+    .section2-right{
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 0;
+    }
 }
-@media only screen and (max-width:1023px){
+
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .entertainment-container .page1 div {
+        height: 60vh !important;
+    }
+
+    .page2list {
+        margin-left: -2em;
+    }
+
+    .speecialeventbox h4 {
+        font-size: 1.3em;
+    }
+
+    .page2list div h4 {
+        height: 10vh;
+    }
+
+    .eventEmcee-container .page2 .mainBox {
+        padding: 1em;
+        justify-content: center;
+    }
+
+    .faveIconBox {
+        flex-wrap: wrap;
+    }
+
+    .overlay {
+        left: 50px;
+    }
+
+    .wedding-entertainmentBox .page11 div h3 {
+        font-size: 3em;
+    }
+
+    .wedding-entertainmentBox .page11 div h3 {
+        font-size: 3em;
+    }
+
+    .hero-section h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .row-2 .right,
+    .row-1 .right,
+    .row-3 .right {
+        width: 40%;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        margin-left: 0;
+    }
+
+    .section-2,
+    .section-3,
+    .section-4 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-2-img,
+    .section-3-img,
+    .section-4-img {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .section-4>div {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    /* lighting */
+    .row1,
+    .row3 {
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    .row2 {
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+
+    .row-container .right,
+    .row-container .left {
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 0;
+    }
+
+    .hero-sectipon p {
+        line-height: 2em;
+    }
+
+    /* stage */
+
+    .row1 p {
+        margin-right: 0;
+    }
+    .Virtual-container{
+        height: auto;
+    }
+    .Virtual-h3{
+        margin-left: 0;
+    }
+    .Virtual-para2 p{
+        width: 94%;
+    }
+    .right-2 {
+        height: 40vh;
+        overflow: hidden;
+        border-radius: 8px;
+        width: 56%;
+        margin-left: 37px;
+        margin-right: 1em;
+    }
+    .right{
+        height: 35vh;
+        width: 40%;
+    }
+    .section2-right{
+        width: 80%;
+        height: 35vh;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
     section .first-headingbox {
         width: 100%;
     }
-    section .first-headingbox p{
+
+    section .first-headingbox p {
         font-size: 1em;
     }
-    section{
+
+    section {
         padding: 1em;
     }
-    .ourWork-container h2{
+
+    .ourWork-container h2 {
         margin-top: 0px;
     }
-    .last-container .image-conatinerr img{
+
+    .last-container .image-conatinerr img {
         height: auto;
     }
-    .last-container .image-conatinerr{
+
+    .last-container .image-conatinerr {
         height: auto;
     }
 }

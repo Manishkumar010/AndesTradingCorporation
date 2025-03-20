@@ -1,15 +1,5 @@
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    width: 100%;
-    height: 100%;
-}
 
 .container{
     width: 100%;
@@ -41,27 +31,46 @@ body{
     margin-right: auto;
 }
 
-.hero-section h1{
-    font-size: 54px;
-    color: #000;
-    font-weight: inherit;
-    text-transform: uppercase;
+.hero-section h2{
+    width: 100%;
+    font-family: Custome;
     text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    color: #00BBF0;
+    margin-bottom: 1em;
 }
 
 .hero-section p{
-    font-family: Open Sans;
-    font-size: 20px;
-    color: #000;
-    line-height: 2em;
-    text-align: center;
-    margin-top: 20px;
+    width: 90%;
+    font-weight: 450;
+    font-size: 1em;
+    font-family: contentFont;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 40px;
+    margin: auto;
 }
 
 .row-container{
     margin-left: auto;
     margin-right: auto;
     
+}
+.row-container .left{
+    width: 60%;
+    overflow: hidden;
+    padding: 2em 1em;
+}
+.row-container .right{
+    width: 30%;
+    height: 40vh;
+    overflow: hidden;
+}
+.row-container .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .row1{
@@ -73,15 +82,20 @@ body{
 }
 
 .row1 h4{
-    font-size: 25px;
-    color: red;
+    width: 100%;
+    font-family: Custome;
+    text-align: center;
+    font-size: 2em;
     font-weight: 500;
+    color: #00BBF0;
+    margin-bottom: 1em;
 }
 
 .row1 p{
-    font-size: 20px;
+    font-size: 1em;
+    font-family: contentFont;
     line-height: 2em;
-    font-weight: 500;
+    font-weight: 450;
     margin-top: 20px;
 }
 
@@ -94,18 +108,22 @@ body{
 }
 
 .row2 h4{
-    font-size: 25px;
-    color: red;
+    width: 100%;
+    font-family: Custome;
+    text-align: center;
+    font-size: 2em;
     font-weight: 500;
-    margin-left: 80px;
+    color: #00BBF0;
+    margin-bottom: 1em;
 }
 
 .row2 p{
-    font-size: 20px;
+    font-size: 1em;
+    font-family: contentFont;
     line-height: 2em;
-    font-weight: 500;
+    font-weight: 450;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 1em;
 }
 
 .row3{
@@ -119,9 +137,10 @@ body{
 
 
 .row3 p{
-    font-size: 20px;
+    font-size: 1.2em;
+    font-family: contentFont;
     line-height: 2em;
-    font-weight: 500;
+    font-weight: 450;
     margin-top: 20px;
 }
 
@@ -131,8 +150,8 @@ body{
 
 .row3 li{
 
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 1em;
+    font-weight: 400;
     line-height: 2em;
 }
 
