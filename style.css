@@ -103,7 +103,7 @@ section {
 }
 
 section .first-headingbox {
-  width: 50%;
+  width: 80%;
   height: 100%;
   margin: auto;
   display: flex;
