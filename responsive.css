@@ -118,6 +118,7 @@
 
     .wedding-entertainmentBox .whatWeDoBox .contentBox h5 {
         width: 66vw;
+        text-align: center;
     }
 
     .wedding-entertainmentBox .page11 div h3 {
@@ -126,7 +127,7 @@
         word-spacing: 0px;
         font-size: 1.8em;
         line-height: 42px;
-        width: 80vw;
+        width: 90vw;
     }
 
     .wedding-entertainmentBox .page22 h3 {
@@ -137,7 +138,11 @@
     }
 
     .wedding-entertainmentBox .page11 {
-        width: 80%;
+        width: 90%;
+    }
+
+    .wedding-entertainmentBox .whatWeDoBox h4 {
+        text-align: center;
     }
 
     .faveIconBox {
@@ -174,6 +179,10 @@
     .row-1 .left p {
         font-size: 0.9em;
         text-align: justify;
+    }
+
+    .wedding-entertainmentBox .whatWeDoBox {
+        width: 90%;
     }
 
     .row-2 .left {
@@ -379,7 +388,7 @@
     }
 
     .Virtual-para2 li {
-        width:80%;
+        width: 80%;
         margin-bottom: 10px;
     }
 
@@ -408,10 +417,14 @@
     .left-2 {
         width: 100%;
         margin: auto;
+        padding: 0em 1em;
+        text-align: justify;
     }
-    .left{
+
+    .left {
         width: 90%;
     }
+
     .right,
     .right-2 {
         width: 90%;
@@ -558,6 +571,7 @@
     }
 
     .row {
+        --bs-gutter-x: 0rem !important;
         padding: 0;
         gap: 2em;
     }
@@ -569,6 +583,7 @@
     .row .right {
         width: 100%;
         margin-top: 1em;
+        height: 40vh;
     }
 
     .row h2 {
@@ -621,11 +636,67 @@
     .div5 {
         flex-direction: column;
     }
-    .h6{
+
+    .h6 {
         width: 90%;
     }
-    .Virtual-pre{
+
+    .Virtual-pre {
         margin-left: 20px;
+    }
+
+    .left-2 span {
+        text-align: justify;
+        text-align-last: center;
+        width: 100%;
+        color: #00BBF0;
+        font-size: 1.2em;
+        margin-top: 1em;
+        display: inline-block;
+    }
+
+    .section2-left li {
+        text-align: start;
+    }
+
+    .h1-section h1 {
+        font-size: 2em;
+    }
+
+    .h4-section h5 {
+        font-size: 0.8em;
+    }
+
+    .Contact_page-section-2 {
+        margin-top: 50px;
+        height: 100%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 1em ;
+    }
+    .sec-left{
+        width: 100%;
+        height: auto;
+
+    }
+    .sec-right{
+        width: 100%;
+        margin-top: 1em;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 2em 0;
+        margin-bottom: 1em;
+    }
+    form input{
+        width: 94%;
+    }
+    .sec-left p{
+        margin-left: 10px;
     }
 
 
@@ -885,6 +956,29 @@
     .sec2 {
         flex-direction: column;
         height: 250vh;
+    }
+    .Contact_page-section-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .sec-left{
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    form input{
+        width: 100%;
+    }
+    .sec-right{
+        width: 90%;
+        margin: auto;
+        margin-top: 1em;
+    }
+    .h4-section h5 {
+        font-size: 1em;
+        width: 90%;
+        margin: auto;
     }
 }
 
