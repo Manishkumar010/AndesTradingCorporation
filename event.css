@@ -288,12 +288,13 @@
     text-align: center;
 }
 
-.entertainment-container{
+.entertainment-container {
     width: 100%;
     height: auto;
     padding: 1em 3em;
 }
-.entertainment-container .page1{
+
+.entertainment-container .page1 {
     width: 100%;
     height: auto;
     display: flex;
@@ -303,28 +304,30 @@
     margin-bottom: 5em;
 }
 
-.entertainment-container .page1 h4{
+.entertainment-container .page1 h4 {
     width: 100%;
     text-align: center;
     margin-top: 1em;
-    font-family:contentFont ;
+    font-family: contentFont;
     text-align: center;
     font-size: 2em;
     font-weight: 600;
     color: #00BBF0;
 }
-.entertainment-container .page1 p{
+
+.entertainment-container .page1 p {
     width: 100%;
     text-align: center;
     margin-top: 1.6em;
-    font-family:contentFont ;
+    font-family: contentFont;
     font-size: 1.1em;
     font-weight: 500;
     text-align: justify;
     line-height: 34px;
     margin-bottom: 1em;
 }
-.entertainment-container .page1 div{
+
+.entertainment-container .page1 div {
     width: 100%;
     height: 100vh;
     border-radius: 8px;
@@ -335,7 +338,8 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-.entertainment-container .page1 div img{
+
+.entertainment-container .page1 div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -348,26 +352,31 @@
     -ms-transition: all 0.6s ease;
     -o-transition: all 0.6s ease;
 }
-.entertainment-container .page1 div img:hover{
+
+.entertainment-container .page1 div img:hover {
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
 }
-.page2list{
+
+.page2list {
     margin-left: -5em;
     width: 110%;
     display: flex;
     justify-content: space-between;
 }
-.page2list div{
+
+.page2list div {
     width: 30%;
 }
-.page2list div:first-child{
+
+.page2list div:first-child {
     width: 40%;
 }
-.page2list div h4{
+
+.page2list div h4 {
     height: 14vh;
     margin-left: 1.6em;
 }
@@ -451,13 +460,16 @@
     .speecialeventbox h2 {
         font-size: 1.6em;
     }
-    .speecialeventbox ul li{
+
+    .speecialeventbox ul li {
         font-size: 1em;
     }
-    .summarytext{
+
+    .summarytext {
         padding: 1.5em;
     }
-    .summarytext h3{
+
+    .summarytext h3 {
         font-size: 1.6em;
         width: 100%;
         text-align: center;
@@ -489,66 +501,79 @@
 
 
 
-.EventServices-box-1{
+.EventServices-box-1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 120vh;
-    font-size: 1.9em;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.left {
+    width: 40%;
+    height: auto;
+
+}
+
+.left h4 {
+    font-family: Custome;
+    font-size: 1.4em;
     font-weight: 500;
+    color: #00BBF0;
 }
 
-.left{
-    width: 35%;
-    
+.left-text {
+    margin-left: 20px;
 }
 
-.left h4{
-    font-size: 1.1em;
+.left-text li {
+    font-weight: 450;
+    font-size: 1em;
+    font-family: contentFont;
+    line-height: 40px;
+}
+
+.right {
+    width: 40%;
+    height: auto;
+}
+
+.right h4 {
+    margin-top: 3em;
+    font-family: Custome;
+    font-size: 1.4em;
     font-weight: 500;
-    margin-bottom: 10px;
-    line-height: 1.3em;
+    color: #00BBF0;
 }
 
-.left-text{
-  height: 300px;
-   /* border: 2px solid pink;  */
-   color: #000;
-   font-size: 0.6em;  
-   margin-left: 20px ;
-}
-.left-text li{
-    font-size: 1em;
-    line-height: 1.9em;
+.right-text {
+    color: #000;
+    margin-left: 20px;
 }
 
-.right{
-    width: 40%;     
-}
-.right h4{
+.right-text li {
+    font-weight: 450;
     font-size: 1em;
-    font-weight: 500;
-    margin-bottom: 10px;
-    line-height: 1.3em;
-}
-.right-text{
-    /* border: 2px solid pink; */
-   color: #000;
-   font-size: 0.6em;    
-   height: 300px; 
-   margin-left: 20px;
- }
- 
-.right-text li{
-    font-size: 1em;
-    line-height: 1.9em;
-    
+    font-family: contentFont;
+    line-height: 40px;
+
 }
 
-.left-text-para p{
+.left-text-para p {
     margin-top: 25px;
     font-size: 0.6em;
     color: #000;
 }
-
+.h1-section{
+    width: 80%;
+    margin: auto;
+}
+.h1-section h3{
+    font-family: Custome;
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 500;
+    color: #00BBF0;
+}
