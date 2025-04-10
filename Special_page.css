@@ -1,6 +1,6 @@
 .box-1,
 .box-2 {
-    margin-top: 90px;
+    margin-top: 0.4em;
     display: flex;
     justify-content: space-between;
     width: 90%;
